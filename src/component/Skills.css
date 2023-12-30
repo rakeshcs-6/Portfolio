@@ -1,0 +1,29 @@
+.skills-container>h5 {
+    color: #FFFFFF;
+    margin-bottom: 0.9375rem;
+    font-size: 1.5625rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.skills-list {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+}
+
+.skill>img {
+    object-fit: contain;
+}
+
+.skill-name {
+    color: #b4b8b9;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}

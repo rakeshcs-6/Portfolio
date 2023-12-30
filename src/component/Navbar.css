@@ -1,5 +1,7 @@
 .nav-bar-container {
     display: flex;
+    /* position: sticky;
+    top: 0 */
 }
 
 .nav-bar-logo {

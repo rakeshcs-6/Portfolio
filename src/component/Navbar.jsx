@@ -34,6 +34,12 @@ function Navbar() {
           .scrollIntoView({ behavior: "smooth" });
         break;
 
+      case "SKILLS":
+        document
+          .getElementById("skills-section")
+          .scrollIntoView({ behavior: "smooth" });
+        break;
+
       default:
         return;
     }
