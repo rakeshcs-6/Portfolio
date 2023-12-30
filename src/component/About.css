@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-left: 3.125rem;
+}
+
+.intro {
+    color: #7f8690;
+    margin-bottom: 1.875rem;
+}
+
+.intro-container {
+    margin-top: 0.625rem;
+    width: 75%;
+
+}
+
+.intro-container>h5 {
+    color: #ffffff;
+    margin-bottom: 0.9375rem;
+    font-size: 1.5625rem;
+}

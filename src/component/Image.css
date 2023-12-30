@@ -1,0 +1,23 @@
+.image-container {
+    position: relative;
+}
+
+.background-image {
+    width: 18.75rem;
+    height: 25rem;
+    border: 15px solid #4fb7dc;
+    border-radius: 0.9375rem;
+    position: relative;
+    z-index: -1;
+}
+
+.image-container>img {
+    /* object-fit: contain; */
+    position: absolute;
+    width: 18.75rem;
+    height: 24.375rem;
+    top: -1.875rem;
+    left: -3.125rem;
+    z-index: 1;
+    border-radius: 0.9375rem;
+}

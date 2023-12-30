@@ -1,0 +1,45 @@
+.nav-bar-container {
+    display: flex;
+}
+
+.nav-bar-logo {
+    width: 40%;
+}
+
+.nav-bar-items {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    list-style-type: none;
+    gap: 10%;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.nav-bar-items>li {
+    cursor: pointer;
+}
+
+.nav-bar-items-mobileView {
+    visibility: hidden;
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.nav-bar-items-mobileView>li {
+    cursor: pointer;
+    margin-bottom: 0.625rem;
+}
+
+.active {
+    padding: 0.625rem 0.9375rem;
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 0.3125rem;
+    background: linear-gradient(to right, #4e98d5, #4a30c2);
+    cursor: pointer;
+    letter-spacing: 0.0625rem;
+    color: white;
+}

@@ -1,12 +1,13 @@
 .custom-btn {
-    padding: 20px 60px;
+    padding: 1.25rem 3.75rem;
     border: none;
     outline: none;
     position: relative;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background: linear-gradient(to right, #4e98d5, #4a30c2);
     cursor: pointer;
     font-weight: 800;
-    letter-spacing: 1px;
-    color: white
+    letter-spacing: 0.0625rem;
+    color: white;
+    font-size: 0.9375rem;
 }
