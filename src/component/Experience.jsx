@@ -1,6 +1,5 @@
 import React from "react";
 import "./Experience.css";
-import aritha from "../asset/aritha.png";
 
 function Experience() {
   return (
