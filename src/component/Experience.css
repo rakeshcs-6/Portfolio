@@ -1,0 +1,35 @@
+.experience-conatiner>h5 {
+    color: #FFFFFF;
+    margin-bottom: 0.9375rem;
+    font-size: 1.5625rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+}
+
+.experience-card {
+    /* width: 30%;
+    height: 30%; */
+    background-color: #000000;
+    padding: 50px 40px;
+    border-radius: 10px;
+    border-bottom: 6px solid #ffffff;
+}
+
+.experience-card>h3 {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.experience-card>p {
+    color: #7f8690;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.exprience-details {
+    display: flex;
+    justify-content: center;
+}

@@ -40,6 +40,16 @@ function Navbar() {
           .scrollIntoView({ behavior: "smooth" });
         break;
 
+      case "EXPERIENCE":
+        document
+          .getElementById("experience-section")
+          .scrollIntoView({ behavior: "smooth" });
+        break;
+      case "CONTACT":
+        document
+          .getElementById("contact-section")
+          .scrollIntoView({ behavior: "smooth" });
+        break;
       default:
         return;
     }
@@ -75,7 +85,7 @@ function Navbar() {
           >
             <li>HOME</li>
             <li>ABOUT ME</li>
-            <li>PROJECT</li>
+            {/* <li>PROJECT</li> */}
             <li>SKILLS</li>
             <li>EXPERIENCE</li>
             <li>CONTACT</li>
@@ -84,12 +94,12 @@ function Navbar() {
       ) : (
         <div className="nav-bar-container" id="nav-section">
           <div className="nav-bar-logo">
-            <p>LOGO</p>
+            <p>R</p>
           </div>
           <ul className="nav-bar-items" onClick={getMenuItemsList}>
             <li className="menu-items active">HOME</li>
             <li className="menu-items">ABOUT ME</li>
-            <li className="menu-items">PROJECT</li>
+            {/* <li className="menu-items">PROJECT</li> */}
             <li className="menu-items">SKILLS</li>
             <li className="menu-items">EXPERIENCE</li>
             <li className="menu-items">CONTACT</li>

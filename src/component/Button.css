@@ -11,3 +11,18 @@
     color: white;
     font-size: 0.9375rem;
 }
+
+
+.submit {
+    padding: 1.25rem 3.75rem;
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 0.9375rem;
+    background: #000000;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 0.0625rem;
+    color: white;
+    font-size: 0.9375rem;
+}

@@ -1,0 +1,117 @@
+.contact-conatiner {
+    background: linear-gradient(to left, #4e98d5, #4a30c2);
+    font-family: "Inter", sans-serif;
+    word-wrap: break-word;
+    border-top-left-radius: 150px 150px;
+    border-top-right-radius: 150px 150px;
+}
+
+.contact-conatiner>h5 {
+    color: #FFFFFF;
+    margin-bottom: 0.9375rem;
+    font-size: 1.5625rem;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+    padding-top: 40px;
+
+
+}
+
+.contact-details>h5 {
+    color: #FFFFFF;
+    margin-bottom: 0.9375rem;
+    font-size: 1.5625rem;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+ul>div {
+    display: flex;
+    align-items: center;
+    gap: 2%
+}
+
+ul>div>span {
+    color: #ffffff;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+ul>div>li {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(to top, #4e98d5, #4a30c2);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+
+
+input {
+    display: block;
+    background-color: var(--main-bg-color);
+    color: #7f8690;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    font-size: large;
+}
+
+textarea {
+    display: block;
+    background-color: var(--main-bg-color);
+    color: #7f8690;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    font-size: large;
+    resize: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
+
+
+.contact-form {
+    /* box-shadow: 10px 10px; */
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 500px;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    background: linear-gradient(to bottom, #4e98d5, #4a30c2);
+    border-radius: 15px;
+}

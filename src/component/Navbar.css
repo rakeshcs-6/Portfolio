@@ -8,6 +8,16 @@
     width: 40%;
 }
 
+.nav-bar-logo>p {
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(to right, #4e98d5, #4a30c2);
+}
+
 .nav-bar-items {
     display: flex;
     align-items: center;
