@@ -55,3 +55,62 @@
     letter-spacing: 0.0625rem;
     color: white;
 }
+
+/* x-small below 576px device*/
+@media screen and (max-width:576px) {
+    .nav-bar-items-mobileView {
+        font-size: small;
+    }
+}
+
+/* small above 576px device*/
+@media screen and (min-width:576px) and (max-width:768px) {
+    .active {
+        padding: 0.3rem 0.5rem;
+        border: none;
+        outline: none;
+        position: relative;
+        border-radius: 0.3125rem;
+        background: linear-gradient(to right, #4e98d5, #4a30c2);
+        cursor: pointer;
+        letter-spacing: 0.0625rem;
+        color: white;
+    }
+}
+
+/* medium above 768px device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .nav-bar-logo {
+        width: 10%
+    }
+
+    .nav-bar-logo>p {
+        width: 30px;
+        height: 30px;
+        color: #ffffff;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 50%;
+        background: linear-gradient(to right, #4e98d5, #4a30c2);
+    }
+
+    .active {
+        padding: 0.3rem 0.5rem;
+        border: none;
+        outline: none;
+        position: relative;
+        border-radius: 0.3125rem;
+        background: linear-gradient(to right, #4e98d5, #4a30c2);
+        cursor: pointer;
+        letter-spacing: 0.0625rem;
+        color: white;
+        font-size: small;
+    }
+
+    .nav-bar-items>li {
+        font-size: small;
+    }
+}
+
+/* large above 992px device*/
+@media screen and (min-width:992px) {}

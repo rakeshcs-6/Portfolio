@@ -8,3 +8,36 @@ body {
     font-family: "Inter", sans-serif;
     word-wrap: break-word;
 }
+
+
+/* x-small below 576px device*/
+@media screen and (max-width:576px) {
+    .main {
+        margin: 1rem;
+        margin-left: 2rem;
+    }
+}
+
+/* small above 576px device*/
+@media screen and (min-width:576px) and (max-width:768px) {
+    .main {
+        margin: 1rem;
+        margin-left: 2rem;
+    }
+}
+
+/* medium above 768px device*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .main {
+        margin: 1.5rem;
+        margin-left: 3rem;
+    }
+}
+
+/* large above 992px device*/
+@media screen and (min-width:992px) {
+    .main {
+        margin: 2.5rem;
+        margin-left: 5rem;
+    }
+}

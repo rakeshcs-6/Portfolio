@@ -22,3 +22,15 @@
     border-radius: 0.9375rem;
     background-color: #ffffff;
 }
+
+/* x-small below 576px device*/
+@media screen and (max-width:576px) {}
+
+/* small above 576px device*/
+@media screen and (min-width:576px) and (max-width:768px) {}
+
+/* medium above 768px device*/
+@media screen and (min-width:768px) and (max-width:992px) {}
+
+/* large above 992px device*/
+@media screen and (min-width:992px) {}
