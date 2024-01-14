@@ -3,7 +3,6 @@ import "./Contact.css";
 import AddIcCallIcon from "@mui/icons-material/AddIcCall";
 import EmailIcon from "@mui/icons-material/Email";
 import PlaceIcon from "@mui/icons-material/Place";
-import Button from "./Button";
 
 function Contact() {
   return (
@@ -34,17 +33,6 @@ function Contact() {
               </span>
             </div>
           </ul>
-        </div>
-        <div className="contact-form">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <textarea
-            type="text"
-            placeholder="Message"
-            style={{ height: "150px" }}
-            className="message-input"
-          />
-          <Button className="submit">Submit</Button>
         </div>
       </div>
     </div>

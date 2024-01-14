@@ -28,10 +28,62 @@
 }
 
 /* x-small below 576px device*/
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+    .custom-btn {
+        padding: 0.3rem 0.5rem;
+        border: none;
+        outline: none;
+        position: relative;
+        border-radius: 0.3125rem;
+        background: linear-gradient(to right, #4e98d5, #4a30c2);
+        cursor: pointer;
+        letter-spacing: 0.0625rem;
+        color: white;
+        font-size: small;
+    }
+
+    .submit {
+        padding: 0.3rem 0.5rem;
+        border: none;
+        outline: none;
+        position: relative;
+        border-radius: 0.3125rem;
+        background: linear-gradient(to right, #4e98d5, #4a30c2);
+        cursor: pointer;
+        letter-spacing: 0.0625rem;
+        color: white;
+        font-size: small;
+    }
+}
 
 /* small above 576px device*/
-@media screen and (min-width:576px) and (max-width:768px) {}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .custom-btn {
+        padding: 0.3rem 0.5rem;
+        border: none;
+        outline: none;
+        position: relative;
+        border-radius: 0.3125rem;
+        background: linear-gradient(to right, #4e98d5, #4a30c2);
+        cursor: pointer;
+        letter-spacing: 0.0625rem;
+        color: white;
+        font-size: small;
+    }
+
+    .submit {
+        padding: 0.3rem 0.5rem;
+        border: none;
+        outline: none;
+        position: relative;
+        border-radius: 0.3125rem;
+        background: linear-gradient(to right, #4e98d5, #4a30c2);
+        cursor: pointer;
+        letter-spacing: 0.0625rem;
+        color: white;
+        font-size: small;
+    }
+}
 
 /* medium above 768px device*/
 @media screen and (min-width:768px) and (max-width:992px) {}

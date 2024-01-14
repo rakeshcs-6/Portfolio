@@ -20,7 +20,7 @@
 
 
 /* x-small below 576px device*/
-@media screen and (max-width:576px) {
+@media screen and (max-width:575px) {
     .first-char {
         font-size: 1rem;
     }
@@ -28,10 +28,15 @@
     .name {
         font-size: 1rem;
     }
+
+    .home-conatiner {
+        margin-top: 0;
+    }
+
 }
 
 /* small above 576px device*/
-@media screen and (min-width:576px) and (max-width:768px) {
+@media screen and (min-width:576px) and (max-width:767px) {
     .first-char {
         font-size: 1.5rem;
     }
@@ -42,7 +47,7 @@
 }
 
 /* medium above 768px device*/
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:768px) and (max-width:991px) {
     .first-char {
         font-size: 2rem;
     }
